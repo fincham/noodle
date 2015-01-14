@@ -1,0 +1,17 @@
+instruments:
+    - {uid: LPD8, name: LPD8}
+    - {uid: USB, name: USB, zero_velocity_for_note_off: true}
+samples:
+    # MPC2000XL via USB adapter
+    #
+    #    49   55   51   53   
+    #    48   47   45   43   
+    #    40   38   46   44   
+    #    37   36   42   82   
+    #
+    # Pulse
+    - {note: 49, path: Visionary/Pulse C.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 55, path: Visionary/Pulse D.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 51, path: Visionary/Pulse E.wav, instrument: USB, pan: 0, one_shot: false}         
+    - {note: 53, path: Visionary/Pulse F.wav, instrument: USB, pan: 0, one_shot: false}        
+    - {note: 43, path: Visionary/Pulse G.wav, instrument: USB, pan: 0, one_shot: false}    

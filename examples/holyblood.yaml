@@ -1,0 +1,28 @@
+instruments:
+    - {uid: LPD8, name: LPD8}
+    - {uid: USB, name: USB, zero_velocity_for_note_off: true}
+samples:
+    # MPC2000XL via USB adapter
+    #
+    #    49   55   51   53   
+    #    48   47   45   43   
+    #    40   38   46   44   
+    #    37   36   42   82   
+    #
+    # Brass
+    - {note: 49, path: HolyBlood/Brass C.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 55, path: HolyBlood/Brass D#.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 51, path: HolyBlood/Brass E.wav, instrument: USB, pan: 0, one_shot: false}         
+    - {note: 53, path: HolyBlood/Brass F.wav, instrument: USB, pan: 0, one_shot: false}        
+    # Discord Brass
+    - {note: 48, path: HolyBlood/Brass Discord B.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 47, path: HolyBlood/Brass Discord D.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 45, path: HolyBlood/Brass Discord D#.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 43, path: HolyBlood/Brass Discord G.wav, instrument: USB, pan: 0, one_shot: false}   
+    # Synth Axe
+    - {note: 40, path: HolyBlood/Synthaxe A fixed.wav, instrument: USB, pan: 0, one_shot: true}    
+    - {note: 38, path: HolyBlood/Synthaxe B fixed.wav, instrument: USB, pan: 0, one_shot: true}   
+    - {note: 46, path: HolyBlood/Synthaxe C fixed.wav, instrument: USB, pan: 0, one_shot: true}             
+    - {note: 44, path: HolyBlood/Synthaxe D fixed.wav, instrument: USB, pan: 0, one_shot: true}             
+    # FX
+    - {note: 37, path: HolyBlood/FX 'Peeeew'.wav, instrument: USB, pan: 0, one_shot: true, no_overlap: true}                 

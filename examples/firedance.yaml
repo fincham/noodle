@@ -1,0 +1,46 @@
+instruments:
+    - {uid: LPD8, name: LPD8}
+    - {uid: USB, name: USB, zero_velocity_for_note_off: true}
+samples:
+    # MPC2000XL via USB adapter
+    #
+    #    49   55   51   53   
+    #    48   47   45   43   
+    #    40   38   46   44   
+    #    37   36   42   82   
+    #
+    # String Chorus
+    - {note: 49, path: Firedance/Strings_Chorus1.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 55, path: Firedance/Strings_Chorus2.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 51, path: Firedance/Strings_Chorus3.wav, instrument: USB, pan: 0, one_shot: false}         
+    - {note: 53, path: Firedance/Strings_Chorus4.wav, instrument: USB, pan: 0, one_shot: false}        
+    # Choir Chorus
+    - {note: 48, path: Firedance/Choir_Chorus1.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 48, path: Firedance/Strings_Chorus1.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 47, path: Firedance/Choir_Chorus2.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 47, path: Firedance/Strings_Chorus2.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 45, path: Firedance/Choir_Chorus3.wav, instrument: USB, pan: 0, one_shot: false}
+    - {note: 45, path: Firedance/Strings_Chorus3.wav, instrument: USB, pan: 0, one_shot: false}          
+    - {note: 43, path: Firedance/Choir_Chorus4.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 43, path: Firedance/Strings_Chorus4.wav, instrument: USB, pan: 0, one_shot: false}   
+    # Choir Verse
+    - {note: 40, path: Firedance/Choir_Verse2.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 38, path: Firedance/Choir_Verse1.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 46, path: Firedance/Choir_Verse2.wav, instrument: USB, pan: 0, one_shot: false}             
+    - {note: 46, path: Firedance/Choir_Verse4.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 44, path: Firedance/Choir_Verse1.wav, instrument: USB, pan: 0, one_shot: false}      
+    - {note: 44, path: Firedance/Choir_Verse3.wav, instrument: USB, pan: 0, one_shot: false}      
+    # Noises
+    - {note: 37, path: Firedance/Speech_Firecracker.wav, instrument: USB, pan: 255, one_shot: true, no_overlap: true}    
+    - {note: 36, path: Firedance/Speech_Wipeout.wav, instrument: USB, pan: 255, one_shot: true, no_overlap: true}   
+    - {note: 42, path: Firedance/Tom_1.wav, instrument: USB, pan: 255, one_shot: true}         
+    - {note: 82, path: Firedance/Tom_2.wav, instrument: USB, pan: 255, one_shot: true}         
+    #  
+    # Danny's LPD8
+    - {note: 40, path: Firedance/Choir_Verse_High4.wav, instrument: LPD8, one_shot: false, pan: 0}
+    - {note: 41, path: Firedance/Choir_Verse_High2.wav, instrument: LPD8, one_shot: false, pan: 0}    
+    - {note: 42, path: Firedance/Choir_Verse_High3.wav, instrument: LPD8, one_shot: false, pan: 0}
+    - {note: 43, path: Firedance/Choir_Verse_High1.wav, instrument: LPD8, one_shot: false, pan: 0}
+    - {note: 36, path: Firedance/Choir_Break2.wav, instrument: LPD8, one_shot: false, pan: 0}
+    - {note: 36, path: Firedance/Digibomb.wav, instrument: LPD8, one_shot: true, pan: 0, no_overlap: true}
+    - {note: 37, path: Firedance/Choir_Break1.wav, instrument: LPD8, one_shot: false, pan: 0}    

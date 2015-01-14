@@ -1,0 +1,25 @@
+instruments:
+    - {uid: LPD8, name: LPD8}
+    - {uid: USB, name: USB, zero_velocity_for_note_off: true}
+samples:
+    # MPC2000XL via USB adapter
+    #
+    #    49   55   51   53   
+    #    48   47   45   43   
+    #    40   38   46   44   
+    #    37   36   42   82   
+    #
+    # Trumpet
+    - {note: 49, path: MurderMe/Trumpet D#.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 55, path: MurderMe/Trumpet E.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 51, path: MurderMe/Trumpet F.wav, instrument: USB, pan: 0, one_shot: false}         
+    - {note: 53, path: MurderMe/Trumpet F#.wav, instrument: USB, pan: 0, one_shot: false}        
+    # Brass
+    - {note: 48, path: MurderMe/Brass D#.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 47, path: MurderMe/Brass E.wav, instrument: USB, pan: 0, one_shot: false}    
+    - {note: 45, path: MurderMe/Brass F.wav, instrument: USB, pan: 0, one_shot: false}   
+    - {note: 43, path: MurderMe/Brass F#.wav, instrument: USB, pan: 0, one_shot: false}   
+    # Misc
+    - {note: 40, path: MurderMe/S&S Beauty.wav, instrument: USB, pan: 255, one_shot: true}    
+    - {note: 38, path: MurderMe/S&S Blood.wav, instrument: USB, pan: 255, one_shot: true}   
+    - {note: 44, path: MurderMe/Brass A.wav, instrument: USB, pan: 0, one_shot: false}             

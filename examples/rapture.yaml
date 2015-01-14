@@ -1,0 +1,22 @@
+instruments:
+    - {uid: LPD8, name: LPD8}
+    - {uid: USB, name: USB, zero_velocity_for_note_off: true}
+samples:
+    # MPC2000XL via USB adapter
+    #
+    #    49   55   51   53   
+    #    48   47   45   43   
+    #    40   38   46   44   
+    #    37   36   42   82   
+    #
+    # Bells
+    - {note: 49, path: Rapture/Bell C.wav, instrument: USB, pan: 0, one_shot: true}    
+    - {note: 55, path: Rapture/Bell D.wav, instrument: USB, pan: 0, one_shot: true}   
+    - {note: 51, path: Rapture/Bell F.wav, instrument: USB, pan: 0, one_shot: true}         
+    - {note: 53, path: Rapture/Bell F#.wav, instrument: USB, pan: 0, one_shot: true}        
+    # More Bells
+    - {note: 43, path: Rapture/Bell B.wav, instrument: USB, pan: 0, one_shot: true}   
+    # Voices
+    - {note: 37, path: Rapture/Rebel.wav, instrument: USB, pan: 255, one_shot: true, no_overlap: true}    
+    - {note: 36, path: Rapture/Stopthisprogress.wav, instrument: USB, pan: 255, one_shot: true, no_overlap: true}   
+    - {note: 42, path: Rapture/hardfrozendarkness.wav, instrument: USB, pan: 255, one_shot: true, no_overlap: true}             

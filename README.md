@@ -1,5 +1,5 @@
 # noodle
-Old pygame based MIDI controllable synthesizer for nerdy musicians, with modest hardware requirements.
+Old pygame based MIDI controllable sampler for nerdy musicians, with modest hardware requirements.
 
 Sample banks are configurable with YAML files, and samples may be any file understood by pygame. Attempts to be smart about pre-loading samples to avoid latency, and handles several common scenarios for samples in live playback.
 Originally developed for the band Radar Angel it was run under Debian on an Asus Eee PC 701 during live shows.

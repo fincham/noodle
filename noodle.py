@@ -1,7 +1,7 @@
 #!/usr/bin/python -u
 
 """
-Pygame based MIDI controllable synthesizer for nerdy musicians, with modest hardware requirements.
+Pygame based MIDI controllable sampler for nerdy musicians, with modest hardware requirements.
 
 Copyright (C) 2012 Michael Fincham <michael@hotplate.co.nz>.
 

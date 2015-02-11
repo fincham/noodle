@@ -17,7 +17,7 @@ Miscellaneous features:
 * Supports multiple instances of the same sample at once
 * Allows arbitrarily mapping MIDI notes to samples
 * Supports pre-definition of multiple MIDI inputs in a single "song"
-* Map any channel to "increment" and "decrement" actions on a counter, and display this onscreen (for counting cues etc)
+* Map any channel to "increment", "decrement" and "reset" actions on a counter, and display this onscreen (for counting cues etc)
 * Convenient YAML format for "song" files allows for quick tweaking of songs during rehearsal
 * Plenty of per-sample flags to save having to make every sample perfect on disk
 * Supports MIDI devices which send a "note velocity changed to zero" message instead of the usual `note_off` message

@@ -7,8 +7,9 @@ Originally developed for the band Radar Angel it was run under Debian on an Asus
 Tested with these MIDI controllers:
 
 * Akai MPC2000XL via generic USB to MIDI adapter
-* Akai LPD8 USB MIDI controller
+* Akai LPD8
 * Korg microKORG via generic USB to MIDI adapter
+* Korg nanoKEY2
 
 Miscellaneous features:
 
